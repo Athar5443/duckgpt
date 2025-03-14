@@ -3,6 +3,4 @@ main = "worker/worker.js"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
 
-account_id = "28d3b4a501d4b0aa586f2aa81b28a70c"
-workers_dev = false  # Menonaktifkan subdomain default workers.dev
-route = "ai.athardev.my.id/*"  # Ganti dengan domain Anda
+custom_domain = true
